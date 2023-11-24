@@ -1,0 +1,67 @@
+
+
+
+body {
+    background: #ffbf00;
+    font-family:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    height: 100%;    
+}
+
+#cronometro {
+    width: 250px;
+}
+
+.wrapper {
+    
+    color:#000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+       
+}
+
+p {
+    font-size: 100px;
+    filter: drop-shadow(5px 5px 5px #000);
+}
+
+button {
+    font-size: 19px;
+    border-radius: 8px;
+    border: solid 1px;
+    cursor: pointer;
+    width: 180px;
+    height: 50px;
+    margin: 10px;
+
+}
+
+button:hover {
+    background: #cccccc;
+}
+
+#logo {
+    width: 250px;
+    margin-top: 50px;
+    filter: drop-shadow(5px 5px 50px 0px #222222 );
+}
+
+@media (max-width: 648px) {
+    p {
+        font-size: 80px;
+        filter: drop-shadow(5px 5px 5px #000);
+
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #logo {
+        width: 250px;
+        margin-top: 150px;
+    }
+}
+
